@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.4;
   color: var(--primary-text-color);
 }
 ul {
@@ -28,13 +28,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.9;
   color: #000000;
 }
 .header-list a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -47,7 +47,7 @@ a {
 .header-contacts a:focus {
   color: var(--fourth-text-color);
 }
-.header-list .current {
+.header-list .current-page {
   color: var(--fourth-text-color);
 }
 
@@ -56,7 +56,7 @@ a {
 .hero-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
@@ -64,7 +64,7 @@ a {
 .hero-link {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
 }
@@ -85,7 +85,7 @@ a {
   padding: 5px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -106,7 +106,7 @@ a {
 .product-name {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -114,14 +114,14 @@ a {
 }
 .product-description {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
   background: rgba(33, 150, 243, 0.9);
 }
 .product-type {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -131,7 +131,7 @@ a {
 .section-header {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .our-advantages h3 {
@@ -141,14 +141,14 @@ a {
 .our-advantages p {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .сapabilities a {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
@@ -161,12 +161,12 @@ a {
 .our-team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .our-team p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -180,7 +180,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
@@ -188,7 +188,7 @@ address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
@@ -203,7 +203,7 @@ address a:focus {
 footer h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
@@ -211,7 +211,7 @@ footer h3 {
 footer p {
   font-weight: normal;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
 }
