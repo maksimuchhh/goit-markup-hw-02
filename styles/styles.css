@@ -103,13 +103,13 @@ a {
 .filters-item {
   margin-right: 8px;
 }
-.product-name {
+.our-products .product-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
+}
+.our-products .product-name a {
   color: var(--primary-text-color);
 }
 .product-description {
