@@ -19,18 +19,22 @@
           ><span class="logo-web">Web</span> Studio</a
         >
         <ul class="header-list">
-          <li><a class="link current-page" href="/">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <li><a class="link our-pages current-page" href="/">Студия</a></li>
+          <li>
+            <a class="link our-pages" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="link our-pages" href="">Контакты</a></li>
         </ul>
         <ul class="header-contacts">
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="link header-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
+            <a class="link header-link" href="tel:380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </nav>
@@ -45,16 +49,16 @@
         <ul>
           <li>
             <img src="./images/antenna.png" alt="радиолокатор" width="70" />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="advantage">Внимание к деталям</h3>
+            <p class="advantage-explanation">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <img src="./images/clock.png" alt="часы" width="70" />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="advantage">Пунктуальность</h3>
+            <p class="advantage-explanation">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -65,16 +69,16 @@
               alt="Диаграмма на ноутбуке"
               width="70"
             />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="advantage">Планирование</h3>
+            <p class="advantage-explanation">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./images/astronaut.png" alt="космонавт" width="70" />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="advantage">Современные технологии</h3>
+            <p class="advantage-explanation">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -87,19 +91,19 @@
         <ul>
           <li>
             <img src="./images/laptop.png" alt="Ноутбук" width="370" />
-            <a class="link" href="">
+            <a class="link capability" href="">
               Десктопные приложения
             </a>
           </li>
           <li>
             <img src="./images/smartphone.png" alt="Смартфон" width="370" />
-            <a class="link" href="">
+            <a class="link capability" href="">
               Мобильные приложения
             </a>
           </li>
           <li>
             <img src="./images/PC.png" alt="Компьютер" width="370" />
-            <a class="link" href="">
+            <a class="link capability" href="">
               Дизайнерские решения
             </a>
           </li>
@@ -110,8 +114,8 @@
         <ul>
           <li>
             <img src="./images/team-1.png" alt="Фотография Джона" width="270" />
-            <h3 lang="en">John Smith</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="employee-name" lang="en">John Smith</h3>
+            <p class="specialization" lang="en">Product Designer</p>
             <ul>
               <li>
                 <a class="link" href="">instagram</a>
@@ -129,8 +133,8 @@
           </li>
           <li>
             <img src="./images/team-2.png" alt="Фотография Марты" width="270" />
-            <h3 lang="en">Marta Stewart</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="employee-name" lang="en">Marta Stewart</h3>
+            <p class="specialization" lang="en">Frontend Developer</p>
             <ul>
               <li>
                 <a class="link" href="">Instagram</a>
@@ -152,8 +156,8 @@
               alt="Фотография Роберта"
               width="270"
             />
-            <h3 lang="en">Robert Jakis</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="employee-name" lang="en">Robert Jakis</h3>
+            <p class="specialization" lang="en">Marketing</p>
             <ul>
               <li>
                 <a class="link" href="">Instagram</a>
@@ -175,8 +179,8 @@
               alt="Фотография Мартина"
               width="270"
             />
-            <h3 lang="en">Martin Doe</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="employee-name" lang="en">Martin Doe</h3>
+            <p class="specialization" lang="en">UI Designer</p>
             <ul>
               <li>
                 <a class="link" href="">Instagram</a>
@@ -236,12 +240,14 @@
           <a class="footer-logo" href=""
             ><span class="logo-web">Web</span> Studio</a
           >
-          <address>
+          <address class="">
             г. Киев, пр-т Леси Украинки, 26
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="link footer-address" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
+            <a class="link footer-address" href="tel:380961111111"
+              >+38 096 111 11 11</a
+            >
           </address>
         </li>
         <li>
@@ -263,7 +269,7 @@
         </li>
       </ul>
       <hr />
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

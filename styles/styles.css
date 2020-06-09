@@ -2,13 +2,13 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
-  --fourth-text-color: #2196f3;
+  --accent-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.14;
   color: var(--primary-text-color);
 }
 ul {
@@ -22,33 +22,33 @@ a {
  HEADER
  */
 .logo-web {
-  color: var(--fourth-text-color);
+  color: var(--accent-color);
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
   color: #000000;
+  letter-spacing: 0.78px;
 }
-.header-list a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
+.our-pages {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-.header-contacts a {
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.28px;
+}
+.header-link {
+  letter-spacing: 0.28px;
   color: var(--secondary-text-color);
+  font-weight: 500;
 }
-.header-contacts a:hover,
-.header-contacts a:focus {
-  color: var(--fourth-text-color);
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
 }
-.header-list .current-page {
-  color: var(--fourth-text-color);
+.current-page {
+  color: var(--accent-color);
 }
 
 /* HERO */
@@ -57,16 +57,20 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: 2.64px;
   text-transform: uppercase;
   color: var(--third-text-color);
 }
 .hero-link {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.96px;
   color: var(--third-text-color);
+}
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--secondary-text-color);
 }
 .hero-section {
   background-color: salmon;
@@ -78,20 +82,20 @@ a {
 .main-title {
   display: none;
 }
-.filters-list a {
+.filters-link {
   border-radius: 4px;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   padding: 5px;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.48px;
+  font-weight: 500;
 }
-.filters-list a:hover,
-.filters-list a:focus {
-  background-color: var(--fourth-text-color);
+.filters-link:hover,
+.filters-link:focus {
+  background-color: #2196f3;
   color: var(--third-text-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -103,71 +107,66 @@ a {
 .filters-item {
   margin-right: 8px;
 }
-.our-products .product-name {
-  font-weight: bold;
+.product-name {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
-}
-.our-products .product-name a {
+  letter-spacing: 1.08px;
   color: var(--primary-text-color);
 }
 .product-description {
   font-size: 18px;
   line-height: 1.55;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.54px;
   color: var(--third-text-color);
   background: rgba(33, 150, 243, 0.9);
 }
 .product-type {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.48px;
   color: var(--secondary-text-color);
 }
 
 /* STUDIO */
 
 .section-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
+  letter-spacing: 1.08px;
 }
-.our-advantages h3 {
-  letter-spacing: 0.03em;
+.advantage {
+  letter-spacing: 0.49px;
   text-transform: uppercase;
 }
-.our-advantages p {
-  font-weight: normal;
-  font-size: 14px;
+.advantage-explanation {
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--secondary-text-color);
 }
-.сapabilities a {
-  font-weight: bold;
-  font-size: 14px;
+.capability {
+  font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   text-transform: uppercase;
   color: var(--third-text-color);
-  background-color: var(--secondary-text-color);
+  background-color: #923592;
 }
-.сapabilities a:hover,
-.сapabilities a:focus {
-  color: var(--fourth-text-color);
+.capability:hover,
+.capability:focus {
+  color: var(--accent-color);
 }
-.our-team h3 {
+.employee-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.48px;
 }
-.our-team p {
+.specialization {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.48px;
   color: var(--secondary-text-color);
 }
 
@@ -178,10 +177,10 @@ footer {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.66px;
   color: var(--third-text-color);
 }
 address {
@@ -189,33 +188,27 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--third-text-color);
 }
-address a {
-  letter-spacing: 0.03em;
+.footer-address {
   color: rgba(255, 255, 255, 0.6);
 }
-address a:hover,
-address a:focus {
-  color: var(--fourth-text-color);
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
 }
 footer h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.49px;
   text-transform: uppercase;
   color: var(--third-text-color);
 }
-footer p {
-  font-weight: normal;
+.copyright {
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.36px;
   color: rgba(255, 255, 255, 0.4);
-}
-.hero-link:hover,
-.hero-link:focus {
-  color: var(--secondary-text-color);
 }
