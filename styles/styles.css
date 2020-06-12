@@ -3,6 +3,7 @@
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
   --accent-color: #2196f3;
+  --footer-text-color: rgba(255, 255, 255);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -73,7 +74,7 @@ a {
   color: var(--secondary-text-color);
 }
 .hero-section {
-  background-color: salmon;
+  background-color: #923592;
 }
 /* MAIN */
 
@@ -192,7 +193,8 @@ address {
   color: var(--third-text-color);
 }
 .footer-address {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text-color);
+  opacity: 0.6;
 }
 .footer-address:hover,
 .footer-address:focus {
@@ -210,5 +212,6 @@ footer h3 {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.36px;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--footer-text-color);
+  opacity: 0.4;
 }
