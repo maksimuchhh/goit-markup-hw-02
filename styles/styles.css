@@ -396,8 +396,8 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.our-clients-item:hover,
-.our-clients-item:focus {
+.our-clients-item a:hover,
+.our-clients-item a:focus {
   border-color: var(--accent-color);
 }
 .our-clients-item img {
