@@ -229,6 +229,13 @@ header {
   margin-left: 24px;
   margin-bottom: 4px;
 }
+.product-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
+  color: var(--primary-text-color);
+}
 .product-description {
   font-size: 18px;
   line-height: 1.55;
