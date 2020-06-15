@@ -411,7 +411,12 @@ footer {
 }
 .footer-list {
   display: flex;
-  padding-top: 45px;
+}
+.footer-list > li:first-child {
+  margin-top: 45px;
+}
+.footer-list > li:not(:first-child) {
+  margin-top: 57px;
 }
 .footer-logo {
   display: block;
@@ -419,11 +424,12 @@ footer {
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 1.18;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.66px;
   color: var(--third-text-color);
 }
+
 address {
   font-style: normal;
   font-weight: normal;
