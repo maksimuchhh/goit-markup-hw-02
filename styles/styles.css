@@ -411,9 +411,11 @@ footer {
 }
 .footer-list {
   display: flex;
+  margin-bottom: 28px;
 }
 .footer-list > li:first-child {
   margin-top: 45px;
+  margin-right: 69px;
 }
 .footer-list > li:not(:first-child) {
   margin-top: 57px;
@@ -437,7 +439,6 @@ address {
   line-height: 1.7;
   letter-spacing: 0.42px;
   color: var(--third-text-color);
-  margin-right: 69px;
 }
 
 .footer-address {
@@ -447,9 +448,6 @@ address {
 }
 .footer-address {
   margin-top: 9px;
-}
-.footer-address:last-child {
-  margin-bottom: 28px;
 }
 .footer-address:hover,
 .footer-address:focus {
