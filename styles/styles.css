@@ -167,12 +167,13 @@ header {
 
 /* PORTFOLIO */
 
-.portfolio {
-  margin-top: 93px;
-  margin-bottom: 93px;
+.main-portfolio {
+  padding-top: 93px;
+  padding-bottom: 93px;
 }
 
-.filters-link {
+.filters-button {
+  border: none;
   border-radius: 4px;
   color: var(--primary-text-color);
   background-color: var(--link-icon-background-color);
@@ -183,38 +184,51 @@ header {
   letter-spacing: 0.48px;
   font-weight: 500;
 }
-.filters-link:hover,
-.filters-link:focus {
+.filters-button:active,
+.filters-button:hover,
+.filters-button:focus {
   background-color: #2196f3;
   color: var(--third-text-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.filters-item:not(:last-child) {
+  margin-right: 8px;
 }
 .filters-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.filters-item:not(:last-child) {
+/* .filters-item:not(:last-child) {
   margin-right: 8px;
-}
+} */
 .our-products-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.our-products-list img {
+  display: block;
+}
+.product-container {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 .our-products-item {
   border: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
-  margin-right: 30px;
 }
 .our-products-item:hover,
 .our-products-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
-.our-products-item:nth-child(3n) {
+/* .our-products-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 .our-products-item:nth-child(n + 4) {
   margin-top: 30px;
 }
@@ -225,8 +239,6 @@ header {
   line-height: 2;
   letter-spacing: 1.08px;
   color: var(--primary-text-color);
-  margin-top: 20px;
-  margin-left: 24px;
   margin-bottom: 4px;
 }
 .product-link {
@@ -237,6 +249,9 @@ header {
   color: var(--primary-text-color);
 }
 .product-description {
+  margin-bottom: 20px;
+  padding: 63px 24px;
+
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.54px;
@@ -248,14 +263,12 @@ header {
   line-height: 1.87;
   letter-spacing: 0.48px;
   color: var(--secondary-text-color);
-  margin-left: 24px;
-  margin-bottom: 20px;
 }
 
 /* STUDIO */
 .our-advantages {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-advantages-list {
   display: flex;
@@ -296,14 +309,17 @@ header {
 }
 .сapabilities {
   text-align: center;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+}
+.capabilities-list img {
+  display: block;
+}
+.capabilities-title {
+  margin-bottom: 50px;
 }
 .capabilities-list {
   display: flex;
-  margin-top: 50px;
-}
-.capabilities-item:not(:last-child) {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 .capability {
   font-weight: 700;
@@ -324,7 +340,6 @@ header {
 
 .our-team {
   text-align: center;
-  margin-bottom: 94px;
   background-color: var(--link-icon-background-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -334,6 +349,7 @@ header {
 }
 .our-team-list {
   display: flex;
+  justify-content: space-between;
 }
 .our-team-item {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -342,9 +358,7 @@ header {
   max-width: 270px;
   background-color: var(--third-text-color);
 }
-.our-team-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .employee-name {
   font-weight: 500;
   font-size: 16px;
@@ -374,7 +388,8 @@ header {
 */
 
 .our-clients {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
 }
 .our-clients-title {
@@ -382,10 +397,9 @@ header {
 }
 .our-clients-list {
   display: flex;
+  justify-content: space-between;
 }
-.our-clients-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .our-clients-item a {
   display: flex;
   justify-content: center;
@@ -411,14 +425,13 @@ footer {
 }
 .footer-list {
   display: flex;
-  margin-bottom: 28px;
+  padding-bottom: 28px;
+  align-items: baseline;
+  padding-top: 45px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-list > li:first-child {
-  margin-top: 45px;
   margin-right: 69px;
-}
-.footer-list > li:not(:first-child) {
-  margin-top: 57px;
 }
 .footer-logo {
   display: block;
@@ -473,6 +486,7 @@ address {
   margin-right: 94px;
 }
 .subscribe {
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
